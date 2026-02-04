@@ -37,12 +37,16 @@ export default function Home() {
               Premium table water crafted for homes, offices, schools, and hospitality spaces. Where purity meets elegance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:items-center">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground w-full sm:w-auto">
-                Order Now
-              </Button>
-              <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10 w-full sm:w-auto bg-transparent">
-                Become a Distributor
-              </Button>
+              <Link href="/contact">
+                <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground w-full sm:w-auto">
+                  Order Now
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10 w-full sm:w-auto bg-transparent">
+                  Become a Distributor
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -237,10 +241,12 @@ export default function Home() {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               We are building a strong distribution network and inviting partners to grow with us across cities, schools, offices, and retail outlets. Join us in bringing premium table water to every space.
             </p>
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              Become a Distributor
-              <ChevronRight className="ml-2 w-4 h-4" />
-            </Button>
+            <Link href="/contact">
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+                Become a Distributor
+                <ChevronRight className="ml-2 w-4 h-4" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -252,12 +258,16 @@ export default function Home() {
             Ready to Experience Premium Water?
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground w-full sm:w-auto">
-              Order Abby Now
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 w-full sm:w-auto bg-transparent">
-              Contact Sales
-            </Button>
+            <Link href="/contact">
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground w-full sm:w-auto">
+                Order Abby Now
+              </Button>
+            </Link>
+            <Link href="/contact">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 w-full sm:w-auto bg-transparent">
+                Contact Sales
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

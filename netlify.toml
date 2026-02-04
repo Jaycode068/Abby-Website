@@ -1,5 +1,4 @@
 [build]
-  base = "app"
   command = "pnpm install --frozen-lockfile=false && pnpm run build"
   publish = "out"
 

@@ -72,23 +72,23 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 const metadata = {
     title: 'Abby Table Water | Premium Table Water for Every Space',
     description: 'Premium table water for homes, offices, schools, and hospitality. Crafted with advanced purification, crystal clear taste, and NAFDAC certified quality.',
-    generator: 'v0.app',
+    generator: 'Jaycode068',
     icons: {
         icon: [
             {
-                url: '/icon-light-32x32.png',
+                url: '/abby-logo.png',
                 media: '(prefers-color-scheme: light)'
             },
             {
-                url: '/icon-dark-32x32.png',
+                url: '/abby-logo.png',
                 media: '(prefers-color-scheme: dark)'
             },
             {
-                url: '/icon.svg',
+                url: '/abby-icon.svg',
                 type: 'image/svg+xml'
             }
         ],
-        apple: '/apple-icon.png'
+        apple: '/abby-logo.png'
     },
     viewport: {
         width: 'device-width',

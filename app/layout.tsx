@@ -9,23 +9,23 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Abby Table Water | Premium Table Water for Every Space',
   description: 'Premium table water for homes, offices, schools, and hospitality. Crafted with advanced purification, crystal clear taste, and NAFDAC certified quality.',
-  generator: 'v0.app',
+  generator: 'Jaycode068',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/abby-logo.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/abby-logo.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/abby-icon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/abby-logo.png',
   },
   viewport: {
     width: 'device-width',
